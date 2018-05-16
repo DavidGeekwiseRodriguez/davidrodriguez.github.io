@@ -9,12 +9,13 @@
 .black-bg {
   background-color: black;
 }
+
 /* HOME */
 
 #bg-vid {
   position: fixed;
-  max-height: 100%;
-  min-width: 100%;
+  height: auto;
+  width: 100%;
   object-fit: fill;
   z-index: -100;
 }
@@ -39,18 +40,85 @@
 
 /* ABOUT */
 
-
-
-#about .image-big-container {
+.image-big-container {
   height: 100vh;
-  width: -50vw;
   position: relative;
 }
 
-#about .image-container {
+.image-container {
   margin: 0;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.image-container img {
+  height: 700px;
+  width: 700px;
+  padding: 50px;
+  border: 2px #f5f5f5 solid;
+  border-width: medium;
+}
+
+.image-container p {
+  font-family: 'Libre Barcode 39 Extended Text';
+  color: #f5f5f5;
+  letter-spacing: 5px;
+  font-size: 2em;
+  margin-top: 30px;
+}
+
+.text-big-container {
+  height: 100vh;
+  position: relative;
+}
+
+.text-container {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.69);
+  padding: 25px;
+}
+
+.wavy-bg {
+  background-image: url('../img/wireframe-pattern.jpg');
+  background-size: cover;
+  border-left: 1px #f5f5f5 solid;
+}
+
+.text-container h1 {
+  margin-bottom: 50px;
+  font-size: 4em;
+  border-bottom: 3px solid #f5f5f5;
+}
+
+.text-container p {
+  font-size: 2em;
+}
+
+.text-container h1, p {
+  font-family: 'VT323';
+  color: #f5f5f5;
+}
+
+.nav-pills {
+  display: flex;
+  justify-content: space-around;
+  font-size: 3em;
+  font-family: 'VT323';
+  margin-top: 25px;
+}
+
+.nav li a {
+  color: white;
+  padding: 0;
+}
+
+.nav li a:hover {
+  background-color: black;
+  text-decoration: underline;
 }
