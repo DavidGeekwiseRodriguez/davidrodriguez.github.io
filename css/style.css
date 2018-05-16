@@ -138,18 +138,49 @@
 
 form {
   width: 50%;
-  margin-left: 450px;
-  margin-top: 200px;
+  margin-left: 470px;
+  margin-top: 150px;
 }
 
 #fine-print {
   font-size: 2.3em;
   letter-spacing: 2px;
+  text-shadow: 1px 1px 1px #000, 2px 2px 8px #D966A6;
 }
 
 .form-group label {
   font-family: 'VT323';
-  font-size: 2em;
+  font-size: 2.3em;
   color: white;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
+  text-shadow: 1px 1px 1px #000, 2px 2px 1px #1BB1CC, -2px -2px 1px #1BB1CC;
+}
+
+.btn-default {
+  font-family: 'VT323';
+  margin-top: 40px;
+  font-size: 2.4em;
+  letter-spacing: 4px;
+  border-radius: 10px;
+  transition: all .7s ease;
+}
+
+.btn-default:hover {
+  color: #f5f5f5;
+  background-color: #000;
+  border: 1px solid #000;
+}
+
+#contact-nav {
+  margin-top: 45px;
+  text-shadow: 1px 1px 1px #000, -2px -2px 1px #D966A6, 2px 2px 1px #D966A6;
+}
+
+#contact-nav a {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#contact-nav a:hover {
+  background-color: transparent;
 }
