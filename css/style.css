@@ -10,15 +10,10 @@
   background-color: black;
 }
 
-#html-vw {
-  width: 100vw;
-}
-
 /* HOME */
 
 #bg-vid {
   position: fixed;
-  height: auto;
   width: 100%;
   object-fit: fill;
   z-index: -100;
